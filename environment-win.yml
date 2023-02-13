@@ -1,0 +1,9 @@
+name: tensorflow_env
+dependencies:
+  - python=3.9
+  - pip:
+      - tensorflow==2.9
+      - tensorflow_datasets
+      - keras_cv==0.4.1
+      - numpy
+      - marshmallow
