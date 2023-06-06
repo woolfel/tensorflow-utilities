@@ -15,6 +15,10 @@ Example usage
 
 python convert_keras_h5_to_json.py my_model.h5 my_mode.json
 
+## Convert Keras H5 to Apple CoreML
+
+If you want to convert a Keras sequential model to Apple's coreml, use convert_keras_to_coreml.py. This version has been tested to work with Tensorflow 2.10.
+
 ## Profile inference and save the results
 
 Script demonstrates how to profile inference with Tensorflow and Keras. The script will load your model, a tensorflow dataset, test image and output file name. If you're using tensorflow dataset, it should work "as is". If your dataset is not a standard tensorflow dataset, you can convert it to tensorflow dataset first.
