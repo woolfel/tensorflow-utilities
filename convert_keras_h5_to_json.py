@@ -51,7 +51,7 @@ def convertToJson(model: keras.Sequential, inputfile):
         weights = layer._trainable_weights
         jsonStr += '{'
         jsonStr += '"name":"' + layer.name + '",'
-        jsonStr += '"class":"' + layerType + '",'
+        jsonStr += '"classtype":"' + layerType + '",'
         jsonStr += '"input_shape":"' + str(layer.input_shape) + '",'
         jsonStr += '"output_shape":"' + str(layer.output_shape) + '",'
         if layerType == 'Conv2D':
